@@ -1,6 +1,14 @@
 /* Ngindox */
-/* Source: https://github.com/karlkfi/ngindox/blob/master/include/ngindox.css */
 
+/* Tweaks for dcos-website */
+#ngindox {
+  h2, h3 {
+    font-family: ClioRegular;
+    letter-spacing: 0.05rem;
+  }
+}
+
+/* Source: https://github.com/karlkfi/ngindox/blob/master/include/ngindox.css */
 #ngindox {
 
   a {
