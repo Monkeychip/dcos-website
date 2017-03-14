@@ -8,11 +8,15 @@
   }
 
   .route .heading {
-      width: 100% !important;
+    width: 100% !important;
+
+    code {
+      letter-spacing: 0;
+    }
   }
 
-  .route .heading code {
-    letter-spacing: 0;
+  .route-type {
+    width: 6rem !important;
   }
 }
 
