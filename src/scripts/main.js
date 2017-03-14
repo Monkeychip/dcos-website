@@ -12,7 +12,9 @@ require('./quotes-carousel.js')
 require('./smooth-scroll.js')
 require('./stackdiagram.js')
 require('./typer.js')
+require('./html-include.js')
 require('swagger-ui-browserify')
+require('./ngindox.js')
 
 import Wallop from 'wallop';
 import Hammer from 'hammerjs';
@@ -160,7 +162,7 @@ $(document).ready(function() {
   var swaggerUi = new SwaggerUi({
     url: yamlFile,
     dom_id: 'swagger-ui-container',
-    docExpansion: 'list'
+    docExpansion: 'none'
   });
 
   swaggerUi.load();
